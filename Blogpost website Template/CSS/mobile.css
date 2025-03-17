@@ -1,0 +1,111 @@
+@media screen and (max-width: 1200px) {
+    .navigation {
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+
+    .nav-left {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .content-right {
+        display: none;
+    }
+
+    .content-left h1 {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+
+    .home-article {
+        flex-direction: column;
+    }
+
+    .home-article-img {
+        text-align: center;
+    }
+
+    .year-box {
+        top: 50px;
+        font-size: 12px;
+        display: flex;
+        padding: 6px;
+    }
+
+    .year-box div {
+        margin: 0;
+        padding: 0 6px;
+    }
+
+    .home-article-img {
+        width: 65vw;
+    }
+
+    .contact-content {
+        font-size: 12px;
+    }
+
+    .form-input {
+        width: 50%;
+    }
+
+    .form-box input,
+    textarea {
+        width: 65vw;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .social {
+        padding: 0;
+    }
+
+    .post-img {
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-hero p {
+        font-size: 1.2rem;
+    }
+
+    .team-grid,
+    .features-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-card,
+    .feature-card {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-info,
+    .contact-form {
+        width: 100%;
+    }
+
+    .contact-hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .contact-hero p {
+        font-size: 1.2rem;
+    }
+}
