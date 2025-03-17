@@ -20,7 +20,7 @@ A fully responsive Blogpost website template built using HTML and CSS. This temp
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/blogpost-template.git
+   git clone https://github.com/Alishahkhowaja/blogpost-template.git
    ```
 
 ## Contributing
